@@ -8,13 +8,13 @@ import PortfolioOne from "./PortfolioOne";
 const PortfolioThreeColumn = () => {
     return (
         <>
-            <SEO title="Portfolio Three Column || Doob - React Business  Template" />
+            <SEO title="Portfolio || KronicLabz LLC - Blockchain Development" />
             <Layout>
                 <BreadcrumbOne 
-                    title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
+                    title="Projects And Platforms We've Built"
                     rootUrl="/"
                     parentUrl="Home"
-                    currentUrl="Portfolio Three Column"
+                    currentUrl="Portfolio"
                 />
                 <div className="main-content">
                     <div className="rwt-portfolio-area rn-section-gap">
@@ -24,7 +24,7 @@ const PortfolioThreeColumn = () => {
                                         <SectionTitle
                                             textAlign = "text-center"
                                             radiusRounded = ""
-                                            subtitle = "Portfolio Three Column"
+                                            subtitle = "Portfolio"
                                             title = "You can customize everything!"
                                             description = ""
                                         />
