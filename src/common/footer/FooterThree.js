@@ -11,7 +11,6 @@ const FooterThree = () => {
                 <CalltoActionEight />
                 <CopyrightTwo />
             </div>
-            <ScrollTop />
         </>
     )
 }

@@ -107,7 +107,6 @@ const FooterTwo = () => {
                     </div>
                 </div>
             </footer>
-            <ScrollTop />
         </>
     )
 }

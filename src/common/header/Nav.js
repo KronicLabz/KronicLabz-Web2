@@ -5,6 +5,8 @@ const Nav = () => {
     return (
         <ul className="mainmenu">
             <li><Link to="/startup">Home</Link></li>
+
+            <li><Link to="/team">Team</Link></li>
             
             <li><Link to="/about-us">About</Link></li>
 

@@ -72,21 +72,6 @@ const FooterFour = () => {
                             {/* End Single Widget  */}
 
                             {/* Start Single Widget  */}
-                            <div className="col-lg-2 col-md-6 col-sm-6 col-12">
-                                <div className="rn-footer-widget">
-                                    <h4 className="title">{footerIntemFour.title}</h4>
-                                    <div className="inner">
-                                        <ul className="footer-link link-hover">
-                                            {indexTwoLink.map((data, index) => (
-                                                <li key={index}><Link to={`${data.url}`}>{data.text}</Link></li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* End Single Widget  */}
-
-                            {/* Start Single Widget  */}
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="rn-footer-widget">
                                     <h4 className="title">{footerIntemFive.title}</h4>
@@ -120,14 +105,13 @@ const FooterFour = () => {
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div className="copyright-right text-center text-md-end">
-                                    <p className="copyright-text">© Doob {new Date().getFullYear()}</p>
+                                    <p className="copyright-text">© KronicLabz LLC {new Date().getFullYear()}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </footer>
-            <ScrollTop />
         </>
     )
 }
