@@ -6,40 +6,36 @@ import ScrollAnimation from "react-animate-on-scroll";
 const teamData = [
     {
         image: 'team-01',
-        name: 'Sr Janen Sara',
-        designation: 'Sr Product Designer',
-        location: 'CO Miego, AD, USA', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
+        name: 'Dustin',
+        designation: 'Founder/CEO and Lead Blockchain Developer',
+        location: 'Grand Chain, IL, USA', 
+        description: 'Creator and founder of KronicKatz, KronicLabz and MetaTec.',
         socialNetwork: [
             {
-                icon: <FiFacebook />,
-                url: '#'
-            },
-            {
                 icon: <FiTwitter />,
-                url: '#'
+                url: 'https://twitter.com/KronicKatz'
             },
             {
                 icon: <FiInstagram />,
-                url: '#'
+                url: 'https://www.instagram.com/kronickatz/'
             },
+            {
+                icon: <FiLinkedin />,
+                url: 'https://www.linkedin.com/in/dustin-turska-5a604887/'
+            }
         ]
        
     },
     {
         image: 'team-02',
-        name: 'Afsana Nila',
-        designation: 'App Developer',
-        location: 'Bangladesh', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
+        name: 'Lance',
+        designation: 'Co-Founder/CFO and Developer',
+        location: 'England, UK', 
+        description: 'Chief Financial Officer, Stock and Futures Expert.',
         socialNetwork: [
             {
-                icon: <FiFacebook />,
-                url: '#'
-            },
-            {
                 icon: <FiTwitter />,
-                url: '#'
+                url: 'https://twitter.com/DefiDfyn'
             },
             {
                 icon: <FiLinkedin />,
@@ -50,26 +46,32 @@ const teamData = [
     },
     {
         image: 'team-03',
-        name: 'Afanan Sifa',
-        designation: 'Accounts Manager',
-        location: 'Poland', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
+        name: 'Penny',
+        designation: 'Co-Founder/CCO Public Relations',
+        location: 'England, UK', 
+        description: 'Chief Communications Officer, Public Relations and Marketing.',
         socialNetwork: [
             {
-                icon: <FiFacebook />,
-                url: '#'
-            },
-            {
                 icon: <FiTwitter />,
-                url: '#'
-            },
-            {
-                icon: <FiInstagram />,
-                url: '#'
-            },
+                url: 'https://twitter.com/money_penny_NFT'
+            }
         ]
         
     },
+    {
+        image: 'team-04',
+        name: 'Aiden',
+        designation: 'Co-Founder/CTO and Lead VR Developer',
+        location: 'Portland, OR, USA', 
+        description: 'Chief Technology Officer, lead of VR Research and Development.',
+        socialNetwork: [
+            {
+                icon: <FiTwitter />,
+                url: 'https://twitter.com/aidenfknrich'
+            }
+        ]
+        
+    }
 ]
 
 
