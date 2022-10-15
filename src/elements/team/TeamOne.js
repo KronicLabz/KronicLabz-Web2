@@ -71,6 +71,34 @@ const teamData = [
             }
         ]
         
+    },
+    {
+        image: 'team-05',
+        name: 'Matt',
+        designation: 'Co-Founder, KronicKatz NFTs',
+        location: 'Indiana, USA', 
+        description: 'Co-Founder and head of project management of KronicKatz NFT project. Liaison for Phoenix Blockchain Rise of the Kronic Phoenix NFT project.',
+        socialNetwork: [
+            {
+                icon: <FiTwitter />,
+                url: 'https://twitter.com/mjkristoff'
+            }
+        ]
+        
+    },
+    {
+        image: 'team-06',
+        name: 'AllThingsCrypto',
+        designation: 'Partner KronicKatz NFTs, Owner KronicKatz AU',
+        location: 'Brisbane, Queensland', 
+        description: 'Partner and PR for KronicKatz, Owner / Liaison for KronicKatz AU.',
+        socialNetwork: [
+            {
+                icon: <FiTwitter />,
+                url: 'https://twitter.com/CryptoJimmybraz'
+            }
+        ]
+        
     }
 ]
 
