@@ -1,9 +1,9 @@
 import React from 'react';
 import { FiArrowRight } from "react-icons/fi";
 const callToActionData = {
-    title: "Ready to start creating a standard website?",
-    subtitle: "Finest choice for your home & office",
-    btnText: "Purchase Doob",
+    title: "Ready to start your journey in web3?",
+    subtitle: "Get started with the best tools for building on the blockchain.",
+    btnText: "Let us help!",
 }
 
 const CalltoActionEight = () => {
@@ -17,7 +17,7 @@ const CalltoActionEight = () => {
                                 <h2 className="title">{callToActionData.title}</h2>
                                 <h6 className="subtitle">{callToActionData.subtitle}</h6>
                                 <div className="call-to-btn text-center mt--30">
-                                    <a className="btn-default btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
+                                    <a className="btn-default btn-icon" target="_blank" href="/contact">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
                                 </div>
                             </div>
                         </div>
