@@ -21,7 +21,6 @@ const FooterTwo = () => {
     return (
         <>
             <footer className="rn-footer footer-style-default variation-two">
-                <CalltoActionSeven />
                 <div className="footer-top">
                     <div className="container">
                         <div className="row">
@@ -94,8 +93,7 @@ const FooterTwo = () => {
                                     <div className="inner">
                                         <h6 className="subtitle">{footerIntemFive.subtitle}</h6>
                                         <ul className="social-icon social-default justify-content-start">
-                                            <li><Link to="facebook.com"><FiFacebook /></Link></li>
-                                            <li><Link to="twitter.com"><FiTwitter /></Link></li>
+                                            <li><Link to="twitter.com/kronickatz"><FiTwitter /></Link></li>
                                             <li><Link to="instagram.com"><FiInstagram /></Link></li>
                                             <li><Link to="linkdin.com"><FiLinkedin /></Link></li>
                                         </ul>
