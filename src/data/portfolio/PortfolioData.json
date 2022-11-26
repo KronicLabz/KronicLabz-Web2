@@ -48,6 +48,22 @@
         }
     },
     {
+        "id": 5,
+        "portfolioImage": "https://i.seadn.io/gae/Q_9zwK-iNwJCRQAdmWrQFLn1daugvKfVt_1C3tuR6zTHkiWO_nflosTSZuVcnhKYHoCC10ZbF7jsdS8V9znKchwXqRQeLjSfKhri1A?auto=format&w=1920",
+        "image": "https://i.seadn.io/gae/Q_9zwK-iNwJCRQAdmWrQFLn1daugvKfVt_1C3tuR6zTHkiWO_nflosTSZuVcnhKYHoCC10ZbF7jsdS8V9znKchwXqRQeLjSfKhri1A?auto=format&w=1920",
+        "title": "Tent Pitch City Club",
+        "client": "Gold Fund",
+        "category": "Gold Reserve NFT Project",
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "https://opensea.io/collection/tentpitchcityclub"
+        },
+        "largeImage": "https://i.seadn.io/gae/Q_9zwK-iNwJCRQAdmWrQFLn1daugvKfVt_1C3tuR6zTHkiWO_nflosTSZuVcnhKYHoCC10ZbF7jsdS8V9znKchwXqRQeLjSfKhri1A?auto=format&w=1920",
+        "gallery": {
+            "imageOne": "https://i.seadn.io/gae/Q_9zwK-iNwJCRQAdmWrQFLn1daugvKfVt_1C3tuR6zTHkiWO_nflosTSZuVcnhKYHoCC10ZbF7jsdS8V9znKchwXqRQeLjSfKhri1A?auto=format&w=1920"
+        }
+    },
+    {
         "id": 3,
         "portfolioImage": "./images/portfolio/4.png",
         "image": "images/portfolio/4.png",
@@ -112,7 +128,7 @@
         }
     },
     {
-        "id": 5,
+        "id": 14,
         "portfolioImage": "./images/portfolio/5.png",
         "image": "images/portfolio/5.png",
         "title": "The Humanoids by Rionlabs",
