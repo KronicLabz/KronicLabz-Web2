@@ -7,6 +7,10 @@ const Nav = () => {
             <li><Link to="/startup">Home</Link></li>
 
             <li><Link to="/team">Team</Link></li>
+            
+            <li><Link to="/about-us">About</Link></li>
+
+            <li><Link to="/blog-list-sidebar">Blog</Link></li>
 
             <li><Link to="/portfolio-three-column">Portfolio</Link></li>
 
