@@ -30,7 +30,7 @@ const BannerData = [
 const Startup = () => {
     return (
         <>
-            <SEO title="Startup Agency" />
+            <SEO title="Home" />
             <main className="page-wrapper">
                 <HeaderOne btnStyle="btn-small btn-icon round" HeaderSTyle="header-transparent" />
 

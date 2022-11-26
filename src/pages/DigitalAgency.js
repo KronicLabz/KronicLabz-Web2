@@ -1,6 +1,6 @@
 import React from 'react'
 import SEO from "../common/SEO";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import HeaderTwo from '../common/header/HeaderTwo';
 import FooterFour from '../common/footer/FooterFour';
 
@@ -42,20 +42,20 @@ const DigitalAgency = () => {
         <>
             <SEO title="Digital Agency" />
             <main className="page-wrapper">
-                
+
                 <HeaderTwo btnStyle="btn-small" HeaderSTyle="header-transparent" />
 
                 {/* Start Slider Area  */}
                 <Slider className="slider-area slider-style-4 slider-dot rn-slick-dot rn-slick-arrow" {...BannerActivation}>
                     {BannerData.map((data, index) => (
                         <div key={index} className="single-slide">
-                            <div className="height-950 bg-overlay bg_image" style={{backgroundImage: `url(${process.env.PUBLIC_URL} ${data.image})`}}>
+                            <div className="height-950 bg-overlay bg_image" style={{ backgroundImage: `url(${process.env.PUBLIC_URL} ${data.image})` }}>
                                 <div className="container">
                                     <div className="row row--30 align-items-center">
                                         <div className="order-2 order-lg-1 col-lg-7">
                                             <div className="inner text-start">
-                                                <h1 className="title" dangerouslySetInnerHTML={{__html: data.title}}></h1>
-                                                <p className="description" dangerouslySetInnerHTML={{__html: data.description}}></p>
+                                                <h1 className="title" dangerouslySetInnerHTML={{ __html: data.title }}></h1>
+                                                <p className="description" dangerouslySetInnerHTML={{ __html: data.description }}></p>
                                                 <div className="button-group mt--30">
                                                     <a className="btn-default" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">PURCHASE NOW</a>
                                                 </div>
@@ -76,17 +76,17 @@ const DigitalAgency = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "About Our Company."
-                                    title = "Services provide for you."
-                                    description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
-                                    />
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="About Our Company."
+                                    title="Services provide for you."
+                                    description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                />
                             </div>
                         </div>
-                        <ServiceFive 
-                            serviceStyle = "gallery-style"
-                            textAlign = "text-start"
+                        <ServiceFive
+                            serviceStyle="gallery-style"
+                            textAlign="text-start"
                         />
                     </div>
                 </div>
@@ -97,30 +97,30 @@ const DigitalAgency = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "Why Choose Us"
-                                        title = "Companies Choose us!"
-                                        description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
-                                    />
+                                <SectionTitle
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Why Choose Us"
+                                    title="Companies Choose us!"
+                                    description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                />
                             </div>
                         </div>
-                        <PortfolioOne Column="col-lg-6 col-md-6 col-sm-6 col-12 mt--30 portfolio no-overlay"  />
+                        <PortfolioOne Column="col-lg-6 col-md-6 col-sm-6 col-12 mt--30 portfolio no-overlay" />
                     </div>
                 </div>
 
-                <Separator />            
+                <Separator />
                 <div className="rwt-progressbar-area rn-section-gap">
                     <div className="container">
                         <div className="row mb--25">
                             <div className="col-lg-10 offset-lg-1">
                                 <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Our Expertise."
-                                    title = "Compnanies Expertise."
-                                    description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Our Expertise."
+                                    title="Compnanies Expertise."
+                                    description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                 />
                             </div>
                         </div>
@@ -131,19 +131,19 @@ const DigitalAgency = () => {
                 </div>
 
 
-                <Separator />            
+                <Separator />
                 {/* Start Testimonial Area  */}
                 <div className="rwt-testimonial-area rn-section-gap">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "Client Feedback"
-                                        title = "What People Are Saying."
-                                        description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
-                                    />
+                                <SectionTitle
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Client Feedback"
+                                    title="What People Are Saying."
+                                    description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                />
                             </div>
                         </div>
                         <TestimonialOne column="col-lg-4 col-md-6 col-sm-6 col-12 mt--30" teamStyle="card-style-default testimonial-style-one style-two" />
@@ -151,17 +151,17 @@ const DigitalAgency = () => {
                 </div>
                 {/* End Testimonial Area  */}
 
-                <Separator />          
+                <Separator />
                 <div className="blog-area rn-section-gap">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Get The Latest News"
-                                    title = "What Our Trending News."
-                                    description = "We provide company and finance service for <br /> startups and company business."
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle="Get The Latest News"
+                                    title="What Our Trending News."
+                                    description="We provide company and finance service for <br /> startups and company business."
                                 />
                             </div>
                         </div>
@@ -174,7 +174,6 @@ const DigitalAgency = () => {
                         </div>
                     </div>
                 </div>
-                <FooterFour />
             </main>
         </>
     )
