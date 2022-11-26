@@ -3,7 +3,7 @@ import {
     CircularProgressbar,
     CircularProgressbarWithChildren,
     buildStyles
-  } from "react-circular-progressbar";
+} from "react-circular-progressbar";
 import { easeQuadInOut } from "d3-ease";
 import 'react-circular-progressbar/dist/styles.css';
 import AnimatedProgressProvider from "./AnimatedProgressProvider";
@@ -11,18 +11,18 @@ import TrackVisibility from 'react-on-screen';
 
 const progressData = [
     {
-      id: 1,
-      title: "Global Access to Internet",
-      percantage: 40,
-      subtitle: "Only around 40% of the world's population has access to the Internet. Thats not a lot when you consider that the Internet is the most powerful tool for communication and information in the world.",
-      strokeColor: "#0f0f11",
-      strokePath: "#059DFF",
-      strokeLinecap: 'round',
-      strokeWidth: 5
+        id: 1,
+        title: "Global Access to Internet",
+        percantage: 40,
+        subtitle: "Only around 40% of the world's population has access to the Internet. Thats not a lot when you consider that the Internet is the most powerful tool for communication and information in the world.",
+        strokeColor: "#0f0f11",
+        strokePath: "#059DFF",
+        strokeLinecap: 'round',
+        strokeWidth: 5
     },
     {
         id: 2,
-        title: "Users aware Web3",
+        title: "Users aware of Web3",
         percantage: 5,
         subtitle: "Of the 40% that have access to the internet, only about 5% of those are aware of crypto and nfts.",
         strokeColor: "#0f0f11",
@@ -56,56 +56,56 @@ const CircleProgress = () => {
     return (
         <div className="row row--30">
             {progressData.map((progress, index) => (
-            <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt--30" key={index}>
-                <div className="rwt-circle text-center">
-                    <TrackVisibility once>
-                        {({ isVisible }) => isVisible && 
-                            <AnimatedProgressProvider
-                                valueStart={0}
-                                valueEnd={progress.percantage}
-                                duration={1.4}
-                                easingFunction={easeQuadInOut}
-                                repeat= {false}
-                                
-                            >
-                                {value => {
-                                const roundedValue = Math.round(value);
-                                return (
-                                    <CircularProgressbar
-                                        value={value}
-                                        text={`${roundedValue}%`}
-                                        strokeWidth={progress.strokeWidth}
-                                        styles={
-                                            {
-                                                trail: {
-                                                    stroke: progress.strokeColor,
-                                                    transition: 'stroke-dashoffset 0.5s ease 0s',
-                                                },
-                                                text: {
-                                                    fill: '#adb5c4',
-                                                    fontSize: '16px',
-                                                    dominantBaseline: 'central',
-                                                    textAnchor: 'middle',
-                                                },
-                                                path: {
-                                                    stroke: progress.strokePath,
-                                                    strokeLinecap: progress.strokeLinecap,
-                                                },
-                                            }
-                                        }
-                                    />
-                                );
-                                }}
-                            </AnimatedProgressProvider>                            
-                        }
-                    </TrackVisibility>
-                    <div className="circle-info">
-                        <h4 className="title">{progress.title}</h4>
-                        <span className="subtitle">{progress.subtitle}</span>
+                <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt--30" key={index}>
+                    <div className="rwt-circle text-center">
+                        <TrackVisibility once>
+                            {({ isVisible }) => isVisible &&
+                                <AnimatedProgressProvider
+                                    valueStart={0}
+                                    valueEnd={progress.percantage}
+                                    duration={1.4}
+                                    easingFunction={easeQuadInOut}
+                                    repeat={false}
+
+                                >
+                                    {value => {
+                                        const roundedValue = Math.round(value);
+                                        return (
+                                            <CircularProgressbar
+                                                value={value}
+                                                text={`${roundedValue}%`}
+                                                strokeWidth={progress.strokeWidth}
+                                                styles={
+                                                    {
+                                                        trail: {
+                                                            stroke: progress.strokeColor,
+                                                            transition: 'stroke-dashoffset 0.5s ease 0s',
+                                                        },
+                                                        text: {
+                                                            fill: '#adb5c4',
+                                                            fontSize: '16px',
+                                                            dominantBaseline: 'central',
+                                                            textAnchor: 'middle',
+                                                        },
+                                                        path: {
+                                                            stroke: progress.strokePath,
+                                                            strokeLinecap: progress.strokeLinecap,
+                                                        },
+                                                    }
+                                                }
+                                            />
+                                        );
+                                    }}
+                                </AnimatedProgressProvider>
+                            }
+                        </TrackVisibility>
+                        <div className="circle-info">
+                            <h4 className="title">{progress.title}</h4>
+                            <span className="subtitle">{progress.subtitle}</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            ))} 
+            ))}
         </div>
     )
 }
