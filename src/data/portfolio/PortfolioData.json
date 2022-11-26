@@ -1,70 +1,6 @@
 [
     {
         "id": 1,
-        "portfolioImage": "./images/portfolio/aura.png",
-        "image": "images/portfolio/aura.png",
-        "title": "Aura NFT Exchange",
-        "client": "LordLabz",
-        "category": "Ecosystems",
-        "btn": {
-            "buttontext": "View Projects",
-            "link": "https://www.zombezeofficial.xyz/"
-        },
-        "largeImage": "./images/portfolio/aura.png",
-        "gallery": {
-            "imageOne": "images/portfolio/aura.png"
-        }
-    },
-    {
-        "id": 2,
-        "portfolioImage": "./images/portfolio/zoe.png",
-        "image": "images/portfolio/zoe.png",
-        "title": "$ZOE Token",
-        "client": "Zombeze of Enlightenment",
-        "category": "ERC20 Token",
-        "btn": {
-            "buttontext": "View Projects",
-            "link": "https://www.zombezeofficial.xyz/"
-        },
-        "largeImage": "./images/portfolio/zoe.png",
-        "gallery": {
-            "imageOne": "images/portfolio/zoe.png"
-        }
-    },
-    {
-        "id": 4,
-        "portfolioImage": "./images/portfolio/zombeze.png",
-        "image": "images/portfolio/zombeze.png",
-        "title": "Zombeze of Enlightenment",
-        "client": "LordLabz",
-        "category": "NFT Collection",
-        "btn": {
-            "buttontext": "View Projects",
-            "link": "https://www.zombezeofficial.xyz/"
-        },
-        "largeImage": "./images/portfolio/zombeze.png",
-        "gallery": {
-            "imageOne": "images/portfolio/zombeze.png"
-        }
-    },
-    {
-        "id": 5,
-        "portfolioImage": "https://i.seadn.io/gae/Q_9zwK-iNwJCRQAdmWrQFLn1daugvKfVt_1C3tuR6zTHkiWO_nflosTSZuVcnhKYHoCC10ZbF7jsdS8V9znKchwXqRQeLjSfKhri1A?auto=format&w=1920",
-        "image": "https://i.seadn.io/gae/Q_9zwK-iNwJCRQAdmWrQFLn1daugvKfVt_1C3tuR6zTHkiWO_nflosTSZuVcnhKYHoCC10ZbF7jsdS8V9znKchwXqRQeLjSfKhri1A?auto=format&w=1920",
-        "title": "Tent Pitch City Club",
-        "client": "Gold Fund",
-        "category": "Gold Reserve NFT Project",
-        "btn": {
-            "buttontext": "View Projects",
-            "link": "https://opensea.io/collection/tentpitchcityclub"
-        },
-        "largeImage": "https://i.seadn.io/gae/Q_9zwK-iNwJCRQAdmWrQFLn1daugvKfVt_1C3tuR6zTHkiWO_nflosTSZuVcnhKYHoCC10ZbF7jsdS8V9znKchwXqRQeLjSfKhri1A?auto=format&w=1920",
-        "gallery": {
-            "imageOne": "https://i.seadn.io/gae/Q_9zwK-iNwJCRQAdmWrQFLn1daugvKfVt_1C3tuR6zTHkiWO_nflosTSZuVcnhKYHoCC10ZbF7jsdS8V9znKchwXqRQeLjSfKhri1A?auto=format&w=1920"
-        }
-    },
-    {
-        "id": 3,
         "portfolioImage": "./images/portfolio/4.png",
         "image": "images/portfolio/4.png",
         "title": "FOUR EIGHTY by Rust",
@@ -79,8 +15,9 @@
             "imageOne": "images/portfolio/4.png"
         }
     },
+
     {
-        "id": 6,
+        "id": 2,
         "portfolioImage": "./images/portfolio/2.png",
         "image": "images/portfolio/2.png",
         "title": "Flinch by Ardor Pictures",
@@ -95,8 +32,9 @@
             "imageOne": "images/portfolio/2.png"
         }
     },
+
     {
-        "id": 13,
+        "id": 3,
         "portfolioImage": "./images/portfolio/3.png",
         "image": "images/portfolio/3.png",
         "title": "Seven22 by Chris Cole",
@@ -111,8 +49,9 @@
             "imageOne": "images/portfolio/3.png"
         }
     },
+
     {
-        "id": 11,
+        "id": 4,
         "portfolioImage": "./images/portfolio/1.png",
         "image": "images/portfolio/1.png",
         "title": "RFC Merch by Rich Fox Club",
@@ -127,8 +66,9 @@
             "imageOne": "images/portfolio/1.png"
         }
     },
+
     {
-        "id": 14,
+        "id": 5,
         "portfolioImage": "./images/portfolio/5.png",
         "image": "images/portfolio/5.png",
         "title": "The Humanoids by Rionlabs",
@@ -143,8 +83,9 @@
             "imageOne": "images/portfolio/5.png"
         }
     },
+
     {
-        "id": 12,
+        "id": 6,
         "portfolioImage": "./images/portfolio/6.png",
         "image": "images/portfolio/6.png",
         "title": "The Airdrops by Sammy Arriaga",
@@ -159,6 +100,7 @@
             "imageOne": "images/portfolio/6.png"
         }
     },
+
     {
         "id": 7,
         "portfolioImage": "./images/portfolio/7.png",
@@ -175,6 +117,7 @@
             "imageOne": "images/portfolio/7.png"
         }
     },
+
     {
         "id": 8,
         "portfolioImage": "./images/portfolio/8.png",
@@ -191,6 +134,7 @@
             "imageOne": "images/portfolio/8.png"
         }
     },
+
     {
         "id": 9,
         "portfolioImage": "./images/portfolio/9.png",
@@ -207,6 +151,7 @@
             "imageOne": "images/portfolio/9.png"
         }
     },
+
     {
         "id": 10,
         "portfolioImage": "./images/portfolio/10.png",
