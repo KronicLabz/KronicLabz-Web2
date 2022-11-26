@@ -5,23 +5,33 @@
     },
     {
         "id": 2,
-        "title": "KronicLabz",
+        "title": "Follow Us",
         "quicklink": [
             {
                 "id": 1,
-                "text": "Home",
-                "url": "/home"
+                "text": "KronicKatz",
+                "url": "twitter.com/kronickatz"
+            },
+            {
+                "id": 2,
+                "text": "KronicLabz",
+                "url": "twitter.com/kroniclabz"
             }
         ]
     },
     {
         "id": 3,
-        "title": "Who are we?",
+        "title": "Collections",
         "quicklink": [
             {
                 "id": 1,
-                "text": "Team",
-                "url": "/team"
+                "text": "The Official KronicKatz",
+                "url": "opensea.io/collection/kronickatz-nft"
+            },
+            {
+                "id": 2,
+                "text": "CryptoDoodez",
+                "url": "opensea.io/collection/cryptodoodez"
             }
         ]
     },
@@ -31,8 +41,13 @@
         "quicklink": [
             {
                 "id": 1,
-                "text": "Portfolio",
+                "text": "NFT Collections",
                 "url": "/portfolio"
+            },
+            {
+                "id": 2,
+                "text": "Marketplaces",
+                "url": "aura-nft-exchange.web.app/"
             }
         ]
     },
@@ -49,7 +64,7 @@
     },
     {
         "id": 6,
-        "title": "Wann a learn more?",
+        "title": "Want to learn more?",
         "subtitle": "development@kroniclabz.com"
     }
 ]
