@@ -13,14 +13,14 @@ import SidebarArchive from './sidebar/SidebarArchive';
 const BlogGridSidebar = () => {
     return (
         <>
-            <SEO title="Blog Grid Sidebar || Doob - React Business  Template" />
+            <SEO title="Blog || KronicLabz LLC Smart Contract and Blockchain Development" />
             
             <Layout>
                 <BreadcrumbOne 
-                    title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
+                    title="This Week In Web3."
                     rootUrl="/"
                     parentUrl="Home"
-                    currentUrl="Blog Grid Sidebar"
+                    currentUrl="Blog"
                 />
                 <div className="main-content">
                     {/* Start Blog Area  */}
