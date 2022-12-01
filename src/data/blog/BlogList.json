@@ -64,5 +64,39 @@
             "IRL",
             "Community"
         ]
+    },
+    {
+        "id": 3,
+        "title": "KronicKatz to reopen mint to close out the year.",
+        "image": "images/blog/blog-02.jpg",
+        "text": "Dustin Turska",
+        "largeImage": "images/blog/blog-02.jpg",
+        "author": [
+            "Dustin Turska"
+        ],
+        "date": "December 1, 2022 07:00 CST | Source: KronicKatz",
+        "view": "15k views",
+        "categories": [
+            "KronicKatz",
+            "Metaversity",
+            "NFT Projects",
+            "NFT",
+            "KronicLabz LLC",
+            "thirdweb"
+        ],
+        "excerpt": "NFT MultiVault Staking Contract.",
+        "body": [
+            "January 10th 2023 marks the 1 year anniversary of the launch of KronicKatz NFT and to mark the special occasion, the founders, Dustin, Matt, and Jimmy, have decided to reopen the mint at a reduced rate of .01 in attempts to start off the new year with a decent marketing budget for the project. To date, the KronicKatz have minted nearly 3500 of a 10000 piece collection, leaving roughly 6500 NFTs left to be minted. <p></p>The idea is to spark interest back into the collection before the new year, and to raise funds to start out the new year strong. In addition to the reduced mint, KronicLabz LLC will be introducing the new MultiVault Staking contract. The contract, released on our partner platform, thirdweb will allow not only KronicKatz holders to earn $MTEC token, but partner projects as well.<p></p>Amongst those partners include:<p></p>Mutant ApeWife twitter @Mutantapewife<p></p>Bored Ape Pixel Club twitter @BoredApePixelCl<p></p>Swaggy Lions twitter @SWAGGYLIONSCLUB<p></p>Ugly Muck YC twitter @MuckClub<p></p>Zombeze of Enlightenment twitter @cryptozombeze<p></p>CryptoDoodez <p></p>These are just a few of the many projects that will be able to create their own vault and stake earning $MTEC. <p></p>The fun will kick off this Saturday at 11:00am cst in twitter spaces  graciously hosted by West Toast @WCCN2022"
+        ],
+        "tags": [
+            "KronicKatz",
+            "KronicLabz LLC",
+            "thirdweb",
+            "web3",
+            "VR",
+            "NFT Staking",
+            "IRL",
+            "Community"
+        ]
     }
 ]
