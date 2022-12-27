@@ -1,15 +1,29 @@
 import React from 'react';
 import SEO from "../../common/SEO";
 import Layout from "../../common/Layout";
+import HeaderOne from "../../common/header/HeaderOne";
+import FooterOne from "../../common/footer/FooterOne";
+import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
 import SectionTitle from "../sectionTitle/SectionTitle";
-import Pricing from "../pricing/Pricing";
+import ServiceOne from "./ServiceOne";
+import ServiceTwo from "./ServiceTwo";
+import ServiceThree from "./ServiceThree";
+import ServiceFour from "./ServiceFour";
+import ServiceFive from "./ServiceFive";
+import Separator from "../separator/Separator";
 
 const Service = () => {
     return (
         <>
 
-            <SEO title="Service || KronicLabz LLC" />
+            <SEO title="Service || Doob - React Business  Template" />
             <Layout>
+                <BreadcrumbOne
+                    title="We have  <br /> Quick Copy & Make site."
+                    rootUrl="/"
+                    parentUrl="Home"
+                    currentUrl="Service"
+                />
                 <div className="main-content">
 
                     {/* Start Service Area  */}
@@ -20,13 +34,16 @@ const Service = () => {
                                     <SectionTitle
                                         textAlign="text-center"
                                         radiusRounded=""
-                                        subtitle="ERC721 / 1155 Token"
-                                        title="NFT Smart Contract Development."
-                                        description="Below are the standard package deal we offer. These are streamlined for quick, fast and efficient deployment. For more complex projects, please contact us for a custom quote."
+                                        subtitle="What we can do for you"
+                                        title="Services provide for you."
+                                        description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
                                     />
                                 </div>
                             </div>
-                            <Pricing />
+                            <ServiceOne
+                                serviceStyle="service__style--1 bg-color-blackest radius mt--25"
+                                textAlign="text-center"
+                            />
                         </div>
                     </div>
                     {/* End Service Area  */}
