@@ -2,19 +2,18 @@ import React from 'react';
 import SEO from "../../common/SEO";
 import Layout from "../../common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
-import SectionTitle from "../sectionTitle/SectionTitle";
 import PortfolioOne from "./PortfolioOne";
 
 const PortfolioBoxLayout = () => {
     return (
         <>
-            <SEO title="Portfolio Box Layout || Doob - React Business  Template" />
+            <SEO title="Portfolio || KronicLabz" />
             <Layout>
                 <BreadcrumbOne
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
                     rootUrl="/"
                     parentUrl="Home"
-                    currentUrl="Portfolio Box Layout"
+                    currentUrl="Portfolio"
                 />
 
                 <div className="main-content">
