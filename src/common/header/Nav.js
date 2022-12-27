@@ -6,6 +6,8 @@ const Nav = () => {
         <ul className="mainmenu">
             <li><Link to="/startup">Home</Link></li>
 
+            <li><Link to="/service">Services</Link></li>
+
             <li><Link to="/team">Team</Link></li>
 
             <li><Link to="/blog-grid-sidebar">Blog</Link></li>
