@@ -1,11 +1,90 @@
 [
+    
     {
         "id": 1,
+        "portfolioImage": "./images/portfolio/kronickatz.png",
+        "image": "images/portfolio/kronickatz.png",
+        "title": "KronicKatz",
+        "client": "KronicKatz NFT",
+        "category": "NFT",
+        "description":"What is the KronicKatz? Collection of 10,000 generated stoner cat themed NFTs.  What is the purpose? To fund the creation of the MetaVersity an alternative to the current education system. Why would I buy a KronicKat? To be a part of and have a say in the future of education and web3. What benefits would I have? -In addition to access to lands, each KronicKat will be rewarded a percentage of tuition paid by students who attend the MetaVersity -Each holder is given full access to instruction at any of our multi-chain metaverse locations as well as a +1 (immediate family) -Voting rights -Exclusive access to upcoming KronicLabz mints and projects What is the MetaVersity? A web3 virtual Metaverse based world education center for web3 related topics to include but not limited to -Blockchain coding and contract -How to create an NFT project -Art generation -Monetization of Music -On chain music recording",
+        "website": "kronickatz.netlify.app",
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "https://kronickatz.netlify.app/"
+        },
+        "largeImage": "./images/portfolio/kronickatzbanner.png",
+        "gallery": {
+            "imageOne": "images/portfolio/kronicbanner.png",
+            "imageTwo": "images/portfolio/katnip22.png",
+            "imageThree": "images/portfolio/fluffy.png"
+        }
+    },
+    {
+        "id": 2,
+        "portfolioImage": "./images/portfolio/1stclasslabs.png",
+        "image": "images/portfolio/1stclasslabs.png",
+        "title": "1st Class",
+        "client": "1st Class Labs",
+        "category": "Platform",
+        "description": "1st Class is a Content Creator focused platform, design to help migrate web2 content creators and their communities into web3 safely. Each creator will have the ability to create and NFT and token gate specific content for only the holders of their NFT to see.",
+        "website": "1stclasslabs.io",
+        "btn": {
+            "buttontext": "View Project",
+            "link": "https://1stclasslabs.io/"
+        },
+        "largeImage": "./images/portfolio/1stclassbanner.png",
+        "gallery": {
+            "imageOne": "images/portfolio/1class-img1.png",
+            "imageTwo": "images/portfolio/1class-img2.png", 
+            "imageThree": "images/portfolio/1class-img3.png"
+        }
+    },
+    {
+        "id": 3,
+        "portfolioImage": "./images/portfolio/katnip.png",
+        "image": "images/portfolio/katnip.png",
+        "title": "Jar-O-Katnip",
+        "client": "KronicKatz NFT",
+        "category": "NFT",
+        "description":"Jar O KatNip is a special Hybrid created for Katz holders only which yelds an NFT for the next chapter of KronicKatz. But just like any quality flower, after harvest, she needs time to cure before she can release her magic! What's that? You've never cured flower before? Well no worries, we have just the thing for that. Stake your Jar O KatNip in the vault for 3 months, dont worry about checking for moisture, we will handle all off that, and in 3 months time, she'll be ready to work her magic.",
+        "website": "stake.kronickatz.com",
+        "btn": {
+            "buttontext": "View Project",
+            "link": "https://stake.kronickatz.com/"
+        },
+        "largeImage": "./images/portfolio/katnip.png",
+        "gallery": {
+            "imageOne": "images/portfolio/katnipjar.png"
+        }
+    },
+    {
+        "id": 4,
+        "portfolioImage": "./images/portfolio/evol.png",
+        "image": "images/portfolio/evol.png",
+        "title": "Evol Ninja",
+        "client": "Evol NinjAi Demons",
+        "category": "NFT",
+        "description":"",
+        "website": "evol-ninj-ai-demons.vercel.app",
+        "btn": {
+            "buttontext": "View Project",
+            "link": "https://evol-ninj-ai-demons.vercel.app/"
+        },
+        "largeImage": "./images/portfolio/evol.png",
+        "gallery": {
+            "imageOne": "images/portfolio/evol.png"
+        }
+    },
+    {
+        "id": 5,
         "portfolioImage": "./images/portfolio/aura.png",
         "image": "images/portfolio/aura.png",
         "title": "Aura NFT Exchange",
         "client": "LordLabz",
         "category": "Ecosystems",
+        "description":"",
+        "website": "aura-nft-exchange.vercel.app",
         "btn": {
             "buttontext": "View Projects",
             "link": "https://www.zombezeofficial.xyz/"
@@ -16,28 +95,32 @@
         }
     },
     {
-        "id": 2,
-        "portfolioImage": "./images/portfolio/zoe.png",
-        "image": "images/portfolio/zoe.png",
-        "title": "$ZOE Token",
-        "client": "Zombeze of Enlightenment",
-        "category": "ERC20 Token",
+        "id": 6,
+        "portfolioImage": "./images/portfolio/web3cah.png",
+        "image": "images/portfolio/web3cah.png",
+        "title": "Web3 Against Humanity",
+        "client": "KronicLabz",
+        "category": "NFT",
+        "description":"",
+        "website": "opensea.io/collection/web3-against-humanity",
         "btn": {
             "buttontext": "View Projects",
-            "link": "https://www.zombezeofficial.xyz/"
+            "link": "https://opensea.io/collection/web3-against-humanity"
         },
-        "largeImage": "./images/portfolio/zoe.png",
+        "largeImage": "./images/portfolio/web3cah.png",
         "gallery": {
-            "imageOne": "images/portfolio/zoe.png"
+            "imageOne": "images/portfolio/web3cah.png"
         }
     },
     {
-        "id": 4,
+        "id": 7,
         "portfolioImage": "./images/portfolio/zombeze.png",
         "image": "images/portfolio/zombeze.png",
         "title": "Zombeze of Enlightenment",
         "client": "LordLabz",
-        "category": "NFT Collection",
+        "category": "NFT",
+        "description":"",
+        "website": "www.zombezeofficial.xyz",
         "btn": {
             "buttontext": "View Projects",
             "link": "https://www.zombezeofficial.xyz/"
@@ -48,12 +131,14 @@
         }
     },
     {
-        "id": 5,
+        "id": 8,
         "portfolioImage": "https://i.seadn.io/gae/Q_9zwK-iNwJCRQAdmWrQFLn1daugvKfVt_1C3tuR6zTHkiWO_nflosTSZuVcnhKYHoCC10ZbF7jsdS8V9znKchwXqRQeLjSfKhri1A?auto=format&w=1920",
         "image": "https://i.seadn.io/gae/Q_9zwK-iNwJCRQAdmWrQFLn1daugvKfVt_1C3tuR6zTHkiWO_nflosTSZuVcnhKYHoCC10ZbF7jsdS8V9znKchwXqRQeLjSfKhri1A?auto=format&w=1920",
         "title": "Tent Pitch City Club",
         "client": "Gold Fund",
         "category": "Gold Reserve NFT Project",
+        "description":"",
+        "website": "opensea.io/collection/tentpitchcityclub",
         "btn": {
             "buttontext": "View Projects",
             "link": "https://opensea.io/collection/tentpitchcityclub"
@@ -64,12 +149,14 @@
         }
     },
     {
-        "id": 3,
+        "id": 9,
         "portfolioImage": "./images/portfolio/4.png",
         "image": "images/portfolio/4.png",
         "title": "FOUR EIGHTY by Rust",
         "client": "Rust",
         "category": "Contract Migration",
+        "description":"",
+        "website": "opensea.io/collection/foureightybyrust",
         "btn": {
             "buttontext": "View Projects",
             "link": "https://opensea.io/collection/foureightybyrust"
@@ -80,28 +167,32 @@
         }
     },
     {
-        "id": 6,
-        "portfolioImage": "./images/portfolio/2.png",
-        "image": "images/portfolio/2.png",
+        "id": 10,
+        "portfolioImage": "./images/portfolio/flinch.png",
+        "image": "images/portfolio/flinch.png",
         "title": "Flinch by Ardor Pictures",
         "client": "Ardor Pictures",
         "category": "Project Development",
+        "description":"",
+        "website": "www.flinchthemovie.com",
         "btn": {
             "buttontext": "View Projects",
             "link": "https://www.flinchthemovie.com/"
         },
-        "largeImage": "./images/portfolio/2.png",
+        "largeImage": "./images/portfolio/flinch.png",
         "gallery": {
-            "imageOne": "images/portfolio/2.png"
+            "imageOne": "images/portfolio/flinch.png"
         }
     },
     {
-        "id": 13,
+        "id": 11,
         "portfolioImage": "./images/portfolio/3.png",
         "image": "images/portfolio/3.png",
         "title": "Seven22 by Chris Cole",
         "client": "Chris Cole",
         "category": "Smart Contract",
+        "description":"",
+        "website": "www.seven22.io",
         "btn": {
             "buttontext": "View Projects",
             "link": "https://www.seven22.io/"
@@ -112,28 +203,14 @@
         }
     },
     {
-        "id": 11,
-        "portfolioImage": "./images/portfolio/1.png",
-        "image": "images/portfolio/1.png",
-        "title": "RFC Merch by Rich Fox Club",
-        "client": "Ion Tech Labs",
-        "category": "Smart Contract / Dapp",
-        "btn": {
-            "buttontext": "View Projects",
-            "link": "https://rfc-staking-vault.vercel.app/"
-        },
-        "largeImage": "./images/portfolio/1.png",
-        "gallery": {
-            "imageOne": "images/portfolio/1.png"
-        }
-    },
-    {
-        "id": 14,
+        "id": 12,
         "portfolioImage": "./images/portfolio/5.png",
         "image": "images/portfolio/5.png",
         "title": "The Humanoids by Rionlabs",
         "client": "Rionlabs",
         "category": "Dapp",
+        "description":"",
+        "website": "www.thehumanoids.com",
         "btn": {
             "buttontext": "View Projects",
             "link": "https://thehumanoids.com/"
@@ -144,12 +221,14 @@
         }
     },
     {
-        "id": 12,
+        "id": 13,
         "portfolioImage": "./images/portfolio/6.png",
         "image": "images/portfolio/6.png",
         "title": "The Airdrops by Sammy Arriaga",
         "client": "Sammy Arriaga",
         "category": "Smart Contract",
+        "description":"",
+        "website": "www.metagirldh.io",
         "btn": {
             "buttontext": "View Projects",
             "link": "https://www.metagirldh.io/"
@@ -160,60 +239,34 @@
         }
     },
     {
-        "id": 7,
-        "portfolioImage": "./images/portfolio/7.png",
+        "id": 14,
+        "portfolioImage": "./images/portfolio/2.png",
         "image": "images/portfolio/7.png",
         "title": "CryptoDoodez by Kronic",
         "client": "Kronic.Katz",
         "category": "Smart Contract, Art Generation, Dapp",
+        "description":"CryptoDoodez! CryptoDoodez are rendition of some of the greatest and most iconic BlueChip NFT projects over the past year. Creation of the founder of KronicKatz, CryptoDoodez serve as a reminder that art is utility as well, thus all who mint have 100% IP rights as stated in the smart contract. Thats right! On chain right for your personal brand now!",
+        "website": "cryptodoodez.crd.co",
         "btn": {
             "buttontext": "View Projects",
             "link": "https://cryptodoodez.crd.co/"
         },
-        "largeImage": "./images/portfolio/7.png",
+        "largeImage": "./images/portfolio/cryptodoodezbanner.png",
         "gallery": {
-            "imageOne": "images/portfolio/7.png"
+            "imageOne": "images/portfolio/cryptodoodez1.png",
+            "imageTwo": "images/portfolio/cryptodoode2.png",
+            "imageThree": "images/portfolio/cryptodoodez3.png"
         }
     },
     {
-        "id": 8,
-        "portfolioImage": "./images/portfolio/8.png",
-        "image": "images/portfolio/8.png",
-        "title": "RICH Token Swap",
-        "client": "Ion Tech Labs",
-        "category": "Ecosystem",
-        "btn": {
-            "buttontext": "View Projects",
-            "link": "https://richtoken.io/"
-        },
-        "largeImage": "./images/portfolio/8.png",
-        "gallery": {
-            "imageOne": "images/portfolio/8.png"
-        }
-    },
-    {
-        "id": 9,
-        "portfolioImage": "./images/portfolio/9.png",
-        "image": "images/portfolio/9.png",
-        "title": "$RICH Token",
-        "client": "Ion Tech Labs",
-        "category": "Token",
-        "btn": {
-            "buttontext": "View Projects",
-            "link": "https://richtoken.io/"
-        },
-        "largeImage": "./images/portfolio/9.png",
-        "gallery": {
-            "imageOne": "images/portfolio/9.png"
-        }
-    },
-    {
-        "id": 10,
+        "id": 15,
         "portfolioImage": "./images/portfolio/10.png",
         "image": "images/portfolio/10.png",
         "title": "MetaTec",
         "client": "KronicKatz NFT",
         "category": "Token",
+        "description":"",
+        "website": "metatectoken.carrd.co",
         "btn": {
             "buttontext": "View Projects",
             "link": "https://metatectoken.carrd.co/"
@@ -221,6 +274,24 @@
         "largeImage": "./images/portfolio/MTEC.png",
         "gallery": {
             "imageOne": "images/portfolio/metatec.png"
+        }
+    },
+    {
+        "id": 16,
+        "portfolioImage": "./images/portfolio/zoe-coin.png",
+        "image": "images/portfolio/zoe-coin.png",
+        "title": "$ZOE Token",
+        "client": "Zombeze of Enlightenment",
+        "category": "ERC20 Token",
+        "description":"",
+        "website": "zombezeofficial.xyz",
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "https://www.zombezeofficial.xyz/"
+        },
+        "largeImage": "./images/portfolio/zoe-coin.png",
+        "gallery": {
+            "imageOne": "images/portfolio/zoe-coin.png"
         }
     }
 ]
