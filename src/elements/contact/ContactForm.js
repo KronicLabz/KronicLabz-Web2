@@ -1,29 +1,95 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React , {useState} from 'react';
+import emailjs from 'emailjs-com';
 
-export const ContactUs = () => {
-  const form = useRef();
+const Result = () => {
+    return (
+        <p className="success-message">Your Message has been successfully sent. I will contact you soon.</p>
+    )
+}
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+function ContactForm({props , formStyle}) {
+    const [ result,showresult ] = useState(false);
 
-    emailjs.sendForm('service_98jv9rq', 'template_jgfr42f', form.current, 'RhmwyMPbyCzxTTitG')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs
+        .sendForm(
+            'service_p4x3hv8', 
+            'template_jgfr42f', 
+            e.target, 
+            'user_jrfTH2e0Ely35ZCVFdT9S'
+        )
+        .then((result) => {
+            console.log(result.text);
+            }, 
+            (error) => {
+                console.log(error.text);
+            }
+        );
+        e.target.reset();
+        showresult(true);
+    };
 
-  return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
-  );
-};
+    setTimeout(() => {
+        showresult(false);
+    }, 5000);
+
+    return (
+        <form className={`${formStyle}`} action="" onSubmit={sendEmail}>
+            <div className="form-group">
+                <input 
+                type="text"
+                name="fullname"
+                placeholder="Your Name"
+                required
+                />
+            </div>
+
+            <div className="form-group">
+                <input 
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                required
+                />
+            </div>
+
+            <div className="form-group">
+                <input 
+                type="text"
+                name="phone"
+                placeholder="Phone Number"
+                required
+                />
+            </div>
+
+
+            <div className="form-group">
+                <input 
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                required
+                />
+            </div>
+
+            <div className="form-group">
+                <textarea 
+                name="message"
+                placeholder="Your Message"
+                required
+                >
+                </textarea>
+            </div>
+
+            <div className="form-group">
+                <button className="btn-default btn-large">Submit Now</button>
+            </div> 
+
+            <div className="form-group">
+                {result ? <Result /> : null}
+            </div> 
+        </form>
+    )
+}
+export default ContactForm;
