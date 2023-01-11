@@ -12,13 +12,12 @@ function ContactForm({props , formStyle}) {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs
-        .sendForm(
-            'service_p4x3hv8', 
-            'template_jgfr42f', 
-            e.target, 
-            'user_jrfTH2e0Ely35ZCVFdT9S'
-        )
+        emailjs.sendForm(
+        'service_p4x3hv8', 
+        'template_jgfr42f',
+        e.target.querySelectorAll("input, textarea"),
+        'user_jrfTH2e0Ely35ZCVFdT9S'
+    )
         .then((result) => {
             console.log(result.text);
             }, 
@@ -37,11 +36,10 @@ function ContactForm({props , formStyle}) {
     return (
         <form className={`${formStyle}`} action="" onSubmit={sendEmail}>
             <div className="form-group">
-                <input 
-                type="text"
-                name="fullname"
-                placeholder="Your Name"
-                required
+                <input
+                type="hidden"
+                name="to_email"
+                value="dustin.turska@kroniclabz.com"
                 />
             </div>
 
