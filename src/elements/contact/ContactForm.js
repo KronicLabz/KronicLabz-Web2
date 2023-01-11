@@ -21,61 +21,15 @@ export const ContactUs = () => {
       });
   };
     return (
-        <form className={`${formStyle}`} action="" onSubmit={sendEmail}>
-            <div className="form-group">
-                <input 
-                type="text"
-                name="fullname"
-                placeholder="Your Name"
-                required
-                />
-            </div>
-
-            <div className="form-group">
-                <input 
-                type="email"
-                name="email"
-                placeholder="Email Address"
-                required
-                />
-            </div>
-
-            <div className="form-group">
-                <input 
-                type="text"
-                name="phone"
-                placeholder="Phone Number"
-                required
-                />
-            </div>
-
-
-            <div className="form-group">
-                <input 
-                type="text"
-                name="subject"
-                placeholder="Subject"
-                required
-                />
-            </div>
-
-            <div className="form-group">
-                <textarea 
-                name="message"
-                placeholder="Your Message"
-                required
-                >
-                </textarea>
-            </div>
-
-            <div className="form-group">
-                <button className="btn-default btn-large">Submit Now</button>
-            </div> 
-
-            <div className="form-group">
-                {result ? <Result /> : null}
-            </div> 
-        </form>
+       <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
     )
 }
 export default ContactForm;
