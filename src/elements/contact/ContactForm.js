@@ -12,12 +12,12 @@ function ContactForm({props , formStyle}) {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm(
-        'service_p4x3hv8', 
-        'template_jgfr42f',
-        e.target.querySelectorAll("input, textarea"),
-        'user_jrfTH2e0Ely35ZCVFdT9S'
-    )
+        emailjs.send('service_98jv9rq', 'template_jgfr42f', templateParams)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
         .then((result) => {
             console.log(result.text);
             }, 
