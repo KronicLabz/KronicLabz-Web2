@@ -7,39 +7,27 @@ const Result = () => {
     )
 }
 
-function ContactForm({props , formStyle}) {
-    const [ result,showresult ] = useState(false);
+export const ContactUs = () => {
+  const form = useRef();
 
-    const sendEmail = (e) => {
-        e.preventDefault();
-        emailjs.send('service_98jv9rq', 'template_jgfr42f', templateParams)
-    .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    });
-        .then((result) => {
-            console.log(result.text);
-            }, 
-            (error) => {
-                console.log(error.text);
-            }
-        );
-        e.target.reset();
-        showresult(true);
-    };
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    setTimeout(() => {
-        showresult(false);
-    }, 5000);
-
+    emailjs.sendForm('service_98jv9rq', 'template_ckft51c', form.current, 'RhmwyMPbyCzxTTitG')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
     return (
         <form className={`${formStyle}`} action="" onSubmit={sendEmail}>
             <div className="form-group">
-                <input
-                type="hidden"
-                name="to_email"
-                value="dustin.turska@kroniclabz.com"
+                <input 
+                type="text"
+                name="fullname"
+                placeholder="Your Name"
+                required
                 />
             </div>
 
