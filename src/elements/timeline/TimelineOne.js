@@ -5,9 +5,43 @@ const TimelineData = [
     {
         id: "1",
         date: "",
+        title: "Aura NFT Exchange",
+        description: "Aura is a new aged NFT marketplace designed for the growth of the space. Comprised of Aura Hub, a public NFT marketplace, and Aura PCMs (Private Community Marketplace) the goal is to give communities a one stop shop for all their minting, staking, defi and nft needs.   ",
+        image: "timeline-01",
+        workingStep: [
+            {
+                stepTitle: "No external links",
+                stepDescription: "One of the key features of Aura is the ability to mint, stake, and trade NFTs all from within the same platform. No more having to leave the platform to trade your NFTs.",
+            },
+            {
+                stepTitle: "Aura Rev Share",
+                stepDescription: "10% of Aura porfits are distributed to all Aura Membership NFT holders. This is our way of making sure that the community is rewarded for their support.",
+            },
+        ]
+    },
+    {
+        id: "2",
+        date: "",
+        title: "Rug Rescue 🛟",
+        description: "Rug Rescue 🛟 is a white glove migration service provided by KronicLabz in conjunction with LordLabz, that allows communities of rugged projects to migrate their NFTs to a community owned contract.",
+        image: "timeline-02",
+        workingStep: [
+            {
+                stepTitle: "One for one swap",
+                stepDescription: "Each holder gets their identical NFT in the new contract. Same token ID, metadata, traits and even rarity score!",
+            },
+            {
+                stepTitle: "Reversable",
+                stepDescription: "If at any point the need were to arise, and the community wanted to migrate back to the old contract, you can!",
+            },
+        ]
+    },
+    {
+        id: "3",
+        date: "",
         title: "MetaTec",
         description: "MetaTec is the Web3 education platform designed for onboarding and retention of new users. Led by the KronicKatz NFT community, MetaTec is the ivy league equivalent for Web3.",
-        image: "timeline-01",
+        image: "timeline-03",
         workingStep: [
             {
                 stepTitle: "New Learning Styles",
@@ -20,11 +54,11 @@ const TimelineData = [
         ]
     },
     {
-        id: "2",
+        id: "4",
         date: "",
         title: "Research and Development",
         description: "If there has been one thing to take away from our time with Web3 so far, it's that there is an astronomical potential for the space.",
-        image: "timeline-02",
+        image: "timeline-04",
         workingStep: [
             {
                 stepTitle: "NFT Real World Applications",
